@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
         policy
             .WithOrigins(
                 "http://localhost:5173",           // local dev
-                "https://sunchecker.netlify.app"  // production — update if your Netlify URL differs
+                "https://chimerical-kelpie-353391.netlify.app/"  // production — update if your Netlify URL differs
             )
             .AllowAnyHeader()
             .AllowAnyMethod();
