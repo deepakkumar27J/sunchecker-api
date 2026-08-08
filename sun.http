@@ -1,0 +1,6 @@
+@sun_HostAddress = http://localhost:5149
+
+GET {{sun_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
